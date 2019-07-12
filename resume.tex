@@ -1,0 +1,92 @@
+\documentclass{article}
+\usepackage[margin=0.5in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\titleformat{\section}{\Large\bfseries\filcenter}{}{0pt}{}
+\titlespacing*{\subsection}{0pt}{0pt}{0pt}
+\titlespacing*{\subsubsection}{10pt}{1pt}{1pt}
+
+\setlength{\parskip}{-0.2em}
+\renewcommand{\baselinestretch}{1.05}
+\renewcommand{\labelitemi}{\scriptsize{$\bullet$}} % makes lists have a small-ish bullet
+\renewcommand{\labelitemii}{\scriptsize{$\circ$}} % makes sub lists have a small-ish empty circle as a bullet
+\pagenumbering{gobble} % removes page numbering
+\begin{document}
+	\begin{center}
+		\section*{Alexander Fischer}
+			\href{mailto:afischer@umass.edu}{afischer@umass.edu} | \href{https://github.com/AlexDFischer}{https://github.com/AlexDFischer} | \href{https://linkedin.com/in/AlexDFischer}{https://linkedin.com/in/AlexDFischer}
+    \end{center}
+	\subsection*{Education}
+		\subsubsection*{University of Massachusetts, Amherst \hfill \normalfont \normalsize Fall 2016--Spring 2020}
+    		\setlist{nolistsep}
+			\begin{itemize}[noitemsep,leftmargin=40pt]
+				\item \textbf{Majors}: Computer Science, Pure Mathematics. \textbf{GPA}: 4.0.
+				%\item \textbf{Relevant Coursework} (computer science): Computer Systems Principles, Advanced Algorithms (graduate level), Artificial Intelligence, Machine Learning, More Advanced Algorithms (graduate level), Formal Language Theory, Reinforcement Learning (gradate level, ongoing), Neural Networks: a Modern Introduction (graduate level, ongoing)
+				%\item \textbf{Relevant Coursework} (mathematics): Multivariable Calculus, Statistics, Linear Algebra, Differential Equations, Modern Analysis, Complex Variables, Discrete Structures, Mathematical Cryptography, Abstract Algebra I \& II.
+				\item \textbf{Relevant Coursework} (computer science): Neural Networks (graduate level), Reinforcement Learning (graduate level), Advanced Algorithms (graduate level), More Advanced Algorithms (graduate level), Formal Language Theory, Artificial Intelligence, Machine Learning, Computer Systems Principles
+				\item \textbf{Relevant Coursework} (mathematics): Multivariable Calculus, Statistics, Linear Algebra, Differential Equations, Modern Analysis, Complex Variables, Discrete Structures, Mathematical Cryptography, Abstract Algebra I \& II.
+			\end{itemize}
+			\subsection*{Academic Experience}
+			\subsubsection*{Autonomous Mobile Robotics Laboratory, University of Massachusetts Amherst \hfill \normalfont \normalsize January 2018--present}
+			\begin{itemize}[noitemsep,leftmargin=40pt]
+				\item Performed original research on a novel algorithm for time-optimal control of omnidirectional robots and implemented that algorithm on real robots in C++.
+				\item Published a second-author paper in the International Conference On Intelligent Robots and Systems, 2018.
+				\item Wrote software to automatically calibrate latency values for robot motion.
+			\end{itemize}
+			\subsubsection*{Research Experience for Undergraduates, University of Miami \hfill \normalfont \normalsize Summer 2017}
+			\begin{itemize}[noitemsep,leftmargin=40pt]
+				\item Wrote software to analyze three dimensional images of mice optic nerves that were multiple gigabytes each, in order to assist medical researchers studying neuron regeneration.
+				\item Implemented novel and existing computer vision algorithms in MATLAB and C++.
+				\item My research poster is available at \href{http://www.cs.miami.edu/reu-cfs/2017/posters/FischerPublicPoster.pdf}{http://www.cs.miami.edu/reu-cfs/2017/posters/FischerPublicPoster.pdf}.
+			\end{itemize}
+			\subsection*{Publications}
+			\begin{itemize}[noitemsep,leftmargin=40pt]
+				\item David Balaban, Alexander Fischer, Joydeep Biswas (2018). A Real-Time Solver For Time-Optimal Control Of Omnidirectional Robots with Bounded Acceleration. In \textit{Intelligent Robots and Systems (IROS), IEEE/RSJ International Conference on}. Available: \href{https://arxiv.org/abs/1707.04617}{https://arxiv.org/abs/1707.04617}
+			\end{itemize}
+	\subsection*{Work Experience}
+		\subsubsection*{Software Engineer Intern, Microsoft \hfill \normalfont \normalsize Summer 2018}
+        	\begin{itemize}[noitemsep,leftmargin=40pt]
+            	\item Added features to the Windows photo viewer and to the Photos Companion mobile app used to import photos from phones into a PC.
+                \item Used C\# with UWP for the desktop application and C\# with Xamarin for the cross-platform mobile application.
+                \item Designed and implemented new network protocol features to improve the photo transfer experience.
+            \end{itemize}
+        \subsubsection*{Teaching Assistant, University of Massachusetts Amherst \hfill \normalfont \normalsize January--December 2017}
+        	\begin{itemize}[noitemsep,leftmargin=40pt]
+            	\item Undergraduate TA for math class `Fundamental Concepts of Mathematics'. \hfill \normalfont \normalsize Fall 2017
+                \begin{itemize}[noitemsep]
+                	\item Taught discussion sections, held office hours, and graded homework assignments.
+                \end{itemize}
+                \item Undergraduate TA for computer science class `Programming with Data Structures'. \hfill \normalfont \normalsize Spring 2017
+                \begin{itemize}[noitemsep]
+                	\item Graded assignments from discussion sections.
+                \end{itemize}
+            \end{itemize}
+	\subsection*{Skills}
+		\begin{itemize}[noitemsep,leftmargin=40pt]
+			\item \textbf{Programming languages}: C++, C, C\#, Java (including Android), Python.
+			\item \textbf{Technologies}: PyTorch, Matplotlib, Git, Linux, Xamarin, \LaTeX.
+		\end{itemize}
+	\subsection*{Personal/Class Projects}
+    	\begin{itemize}[noitemsep,leftmargin=40pt]
+    		\item \textbf{LSTM transfer learning}: Came up with a way to perform transfer learning with stacked LSTM neural networks and implemented my ideas on text data for a final project in a graduate-level neural networks class. Used Python and PyTorch.
+        	\item \textbf{Quadratic sieve}: Implemented quadratic sieve factoring algorithm as part of a group project in a mathematical cryptography class. Successfully factored 120 bit numbers in less than a day. Used C.
+            \item \textbf{Chamberwell}: Android game published on the Google Play store where one tilts the screen to transport moving balls into the correct chambers. Used Java, Android Studio.
+			\item \textbf{Mandelbrot set renderer}: Renders the Mandelbrot set with smooth coloring and multithreading. Used Java.
+            \item \textbf{SPIRE autoenroller}: Continuously checks if a class is open on SPIRE, the course enrollment system at UMass, then automatically enrolls one in it if so. Used Java, Selenium.
+        \end{itemize}
+    \subsection*{Activities and Awards}
+    	\begin{itemize}[noitemsep,leftmargin=40pt]
+        	\item \textbf{Putnam Exam, 2017} (a national mathematics competition for undergraduate students): Scored 19 points, ranking in the top 17\% of the country.
+        	\item \textbf{Jacob-Cohen-Killam Math Competition, 2017} (competition for University of Massachusetts students): won second place, including a \$1000 prize.
+            \item \textbf{Hack Harvard, 2017}: Won best IoT hack for a voice controlled robotic drink mixer built with Amazon Alexa.
+            \item \textbf{Hack Holyoke, 2016}: Won best hardware hack for a bike lock that could be controlled from a phone via bluetooth.
+        \end{itemize}
+%    \subsection*{Contact Information}
+%	    \begin{itemize}
+%	    	\item \textbf{Email}: \href{mailto:afischer@umass.edu}{afischer@umass.edu}
+%	    	\item \textbf{Phone}: 508-446-0400
+%	    	\item \textbf{Home address}: 49 Beaver Street, Franklin, MA, 02038. \textbf{School Address}: Johnson Hall, Room 312, 380 Thatcher Road, Amherst, MA 01003-9359.
+%	    \end{itemize}
+\end{document}
