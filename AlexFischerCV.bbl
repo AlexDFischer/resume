@@ -1,0 +1,36 @@
+\begin{thebibliography}{1}
+
+\bibitem{basu2022strategies}
+Samyadeep Basu, Amr Sharaf, Karine Ip~Kiun Chong, Alex Fischer, Vishal Rohra,
+  Michael Amoake, Hazem El-Hammamy, Ehi Nosakhare, Vijay Ramani, and Benjamin
+  Han.
+\newblock ``Strategies to improve few-shot learning for intent classification
+  and slot-filling''.
+\newblock In Proceedings of the Workshop on Structured and Unstructured
+  Knowledge Integration (SUKI).
+\newblock \href{https://dx.doi.org/10.18653/v1/2022.suki-1.3}{Pages 17--25}.
+\newblock ~(2022).
+\newblock  \href{http://arxiv.org/abs/2109.08754}{arXiv:2109.08754}.
+
+\bibitem{fischer2021distributing}
+Alex Fischer and Don Towsley.
+\newblock ``Distributing graph states across quantum networks''.
+\newblock In 2021 IEEE International Conference on Quantum Computing and
+  Engineering (QCE).
+\newblock \href{https://dx.doi.org/10.1109/QCE52317.2021.00049}{Pages
+  324--333}.
+\newblock IEEE~(2021).
+\newblock  \href{http://arxiv.org/abs/2009.10888}{arXiv:2009.10888}.
+
+\bibitem{balaban2018real}
+David Balaban, Alexander Fischer, and Joydeep Biswas.
+\newblock ``A real-time solver for time-optimal control of omnidirectional
+  robots with bounded acceleration''.
+\newblock In 2018 IEEE/RSJ International Conference on Intelligent Robots and
+  Systems (IROS).
+\newblock \href{https://dx.doi.org/10.1109/IROS.2018.8594306}{Pages
+  8027--8032}.
+\newblock IEEE~(2018).
+\newblock  \href{http://arxiv.org/abs/1707.04617}{arXiv:1707.04617}.
+
+\end{thebibliography}
