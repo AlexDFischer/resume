@@ -1,5 +1,11 @@
 \begin{thebibliography}{1}
 
+\bibitem{fischer2023decodingHard}
+Alex Fischer and Akimasa Miyake.
+\newblock ``Hardness results for decoding the surface code with pauli
+  noise''~(2023).
+\newblock  \href{http://arxiv.org/abs/2309.10331}{arXiv:2309.10331}.
+
 \bibitem{basu2022strategies}
 Samyadeep Basu, Amr Sharaf, Karine Ip~Kiun Chong, Alex Fischer, Vishal Rohra,
   Michael Amoake, Hazem El-Hammamy, Ehi Nosakhare, Vijay Ramani, and Benjamin
