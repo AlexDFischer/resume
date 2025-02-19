@@ -2,8 +2,10 @@
 
 \bibitem{fischer2023decodingHard}
 Alex Fischer and Akimasa Miyake.
-\newblock ``Hardness results for decoding the surface code with pauli
-  noise''~(2023).
+\newblock ``Hardness results for decoding the surface code with {P}auli
+  noise''.
+\newblock \href{https://dx.doi.org/10.22331/q-2024-10-28-1511}{{Quantum} {\bf
+  8}, 1511}~(2024).
 \newblock  \href{http://arxiv.org/abs/2309.10331}{arXiv:2309.10331}.
 
 \bibitem{basu2022strategies}
